@@ -66,8 +66,11 @@ extension FirstViewController: UITableViewDataSource,UITableViewDelegate,SecondV
     }
     
     func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
-        let index = indexPath.row
-        
+        let index = musicArray[indexPath.row]
+        if let thirdViewController = ThirdViewController.viewControllerWithStoryboard() {
+            present(thirdViewController, animated: true)
+            thirdViewController.fullSongInfo.text! = "Song name:\(index.nameSong) \n Artist:\(index.artistName) \n Style: \(index.style)"
+    }
     }
 
     
@@ -92,4 +95,5 @@ extension FirstViewController: UITableViewDataSource,UITableViewDelegate,SecondV
         musicArray.insert(changeMusicPosition, at: destinationIndexPath.row)
     }
 }
+
 

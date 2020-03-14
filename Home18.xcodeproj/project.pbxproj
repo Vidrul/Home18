@@ -14,6 +14,7 @@
 		1802695D241D359100A39FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1802695C241D359100A39FDC /* Assets.xcassets */; };
 		18026960241D359100A39FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802695E241D359100A39FDC /* LaunchScreen.storyboard */; };
 		1802696A241D3C0300A39FDC /* music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18026969241D3C0300A39FDC /* music.swift */; };
+		188FDD25241D923E0013B63A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FDD24241D923E0013B63A /* ThirdViewController.swift */; };
 		18C22667241D4456000C6AB8 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C22666241D4456000C6AB8 /* SongTableViewCell.swift */; };
 		18C22669241D4519000C6AB8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C22668241D4519000C6AB8 /* SecondViewController.swift */; };
 		18C2266B241D4944000C6AB8 /* UIViewController + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2266A241D4944000C6AB8 /* UIViewController + Helper.swift */; };
@@ -29,6 +30,7 @@
 		1802695F241D359100A39FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18026961241D359100A39FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18026969241D3C0300A39FDC /* music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music.swift; sourceTree = "<group>"; };
+		188FDD24241D923E0013B63A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		18C22666241D4456000C6AB8 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		18C22668241D4519000C6AB8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		18C2266A241D4944000C6AB8 /* UIViewController + Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Helper.swift"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				18C22666241D4456000C6AB8 /* SongTableViewCell.swift */,
 				18026957241D358F00A39FDC /* FirstViewController.swift */,
 				18C22668241D4519000C6AB8 /* SecondViewController.swift */,
+				188FDD24241D923E0013B63A /* ThirdViewController.swift */,
 				18026959241D358F00A39FDC /* Main.storyboard */,
 				1802695C241D359100A39FDC /* Assets.xcassets */,
 				1802695E241D359100A39FDC /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 				18C2266B241D4944000C6AB8 /* UIViewController + Helper.swift in Sources */,
 				18C22667241D4456000C6AB8 /* SongTableViewCell.swift in Sources */,
 				18026954241D358F00A39FDC /* AppDelegate.swift in Sources */,
+				188FDD25241D923E0013B63A /* ThirdViewController.swift in Sources */,
 				18026956241D358F00A39FDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
