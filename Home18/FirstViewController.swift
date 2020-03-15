@@ -17,7 +17,6 @@ class FirstViewController: UIViewController {
     }
     
     @IBAction func addNewMusicBarButtonDidClick(_ sender: UIBarButtonItem) {
-        
         if let secondViewController = SecondViewController.viewControllerWithStoryboard() {
             navigationController?.pushViewController(secondViewController, animated: true)
             secondViewController.delegate = self
@@ -70,6 +69,7 @@ extension FirstViewController: UITableViewDataSource,UITableViewDelegate,SecondV
         if let thirdViewController = ThirdViewController.viewControllerWithStoryboard() {
             present(thirdViewController, animated: true)
             thirdViewController.fullSongInfo.text! = "Song name:\(index.nameSong) \n Artist:\(index.artistName) \n Style: \(index.style)"
+            thirdViewController.songImage.image = index.image
     }
     }
 
